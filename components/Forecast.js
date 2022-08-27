@@ -39,6 +39,10 @@ export default function Forecast(props) {
         <Text> </Text>
       </View>
       <Text style={style.Text}>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</Text>
+      <Text> </Text>
+      <Text style={style.location}>
+        {props.name}, {props.country}{" "}
+      </Text>
     </View>
   );
 }
@@ -58,4 +62,12 @@ const style = StyleSheet.create({
     textAlign: "center",
     lineHeight: 40,
   },
+
+  location: {
+    textAlign: 'right',
+    fontSize: 20,
+    fontWeight: "bold",
+    color: '#FFff',
+
+},
 });
