@@ -64,7 +64,7 @@ import React, { useEffect, useState } from "react";
           highlight: {
              backgroundColor: 'rgba(0, 0, 0, 0.5)',
              width:"100%", 
-             height:"45%", 
+             height:"50%", 
              paddingTop: Constants.statusBarHeight, 
              alignItems: 'center'
          },

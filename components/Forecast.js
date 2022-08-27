@@ -18,7 +18,7 @@ export default function Forecast(props) {
         <Text style={style.Text}></Text>
       </View>
       <Text style={style.Text}>{props.main}</Text>
-      <Text style={style.Text}>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</Text>
+      <Text style={style.Text}>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</Text>
       <View
         style={{
           flexDirection: "row",
@@ -38,7 +38,7 @@ export default function Forecast(props) {
 
         <Text> </Text>
       </View>
-      <Text style={style.Text}>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</Text>
+      <Text style={style.Text}>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</Text>
     </View>
   );
 }
