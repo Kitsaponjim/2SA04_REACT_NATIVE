@@ -1,6 +1,6 @@
 import React from "react";
  import { FlatList, TouchableHighlight } from "react-native";
- import { StatusBar, View, Text, StyleSheet } from "react-native";
+ import { StatusBar, View, Text, StyleSheet, ImageBackground } from "react-native";
  import { useNavigation } from "@react-navigation/native";
 
 
@@ -45,9 +45,25 @@ import React from "react";
        zipItem: {
          flex: 2,
          flexDirection: 'row',
-         justifyContent: 'space-between'
+         justifyContent: 'space-evenly',
         
        },
-             
+       
+       Place: {
+        flex: 2,
+        fontSize: 32,
+        fontWeight: "bold",
+        color: 'black',
+        textAlign: 'right'
+      },
+
+      Code: {
+        flex: 2,
+        textAlign: 'center',
+        fontSize: 28,
+        fontWeight: "bold",
+        color: 'black',
+      },
+      
     }
   ) 

@@ -45,6 +45,7 @@ import React, { useEffect, useState } from "react";
         <ImageBackground source={require('../BG.jpg')} style={style.backdrop}>
                <View style={style.highlight}>
                  <Text style={style.titleText}>Zip code is {props.zipCode}.</Text>
+                 <Text> </Text>
                  <Forecast {...forecastInfo}/>
              </View>
          </ImageBackground>
